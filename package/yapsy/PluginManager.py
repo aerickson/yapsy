@@ -131,7 +131,7 @@ import os
 try:
 	import importlib.abc.Loader as imp
 except ImportError:
-	import imp
+	import importlib as imp
 
 from yapsy import log
 from yapsy import NormalizePluginNameForModuleName
